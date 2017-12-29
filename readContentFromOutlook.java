@@ -1,3 +1,19 @@
+import java.io.IOException;
+import java.util.Arrays;
+import java.util.Comparator;
+import java.util.Date;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+import javax.mail.BodyPart;
+import javax.mail.Folder;
+import javax.mail.Message;
+import javax.mail.MessagingException;
+import javax.mail.Session;
+import javax.mail.Store;
+import javax.mail.internet.MimeMultipart;
+import javax.mail.search.ComparisonTerm;
+import javax.mail.search.ReceivedDateTerm;
 
 class MailHelper {
 
